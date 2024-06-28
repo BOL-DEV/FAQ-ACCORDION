@@ -57,7 +57,7 @@ body {
 
 .text {
   font-family: regular;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: none;
@@ -96,6 +96,21 @@ body {
   gap: 1rem;
 }
 
-.wrapper{
-    margin: 2rem 0;
+.wrapper {
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-container {
+    display: block;
+    width: 20rem;
+  }
+
+  .sub-wrapper:hover {
+    color: hsl(293, 62%, 35%);
+  }
+
+  .text {
+    font-size: 1rem;
+  }
 }
